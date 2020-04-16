@@ -72,6 +72,8 @@ Piece.prototype.update = function () {
     }
 }
 
+//commit again
+
 Piece.prototype.render = function () {
     var value = this.value;
     var self = this;
