@@ -1,0 +1,125 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #776e65;
+  overflow: hidden;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: #faf8ef;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+
+h1 {
+  font-size: 4em;
+}
+
+#title-container {
+    width: 85%;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* overflow: hidden; */
+    margin: 0 auto;
+}
+
+#score-container {
+  background: #bbada0;
+  width: 20%;
+  height: 7vh;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  padding: 4px;
+}
+
+#score-container h2 {
+  color: #eee4da;
+  font-size: .9em;
+}
+
+#score {
+  font-size: 1.5em;
+  color: #FFF;
+}
+
+#canvas-container {
+  width: 85%;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: 1vw solid #bbada0;
+  background-color: #bbada0;
+  /* overflow: hidden; */
+  margin: 0 auto;
+  position: relative;
+}
+
+#game-over {
+  font-size: 2.5em;
+  position: absolute;
+  z-index: 50;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: table;
+  text-align: center;
+}
+
+#canvas {
+  width: 100%;
+  /* height: 90vh; */
+  margin: 0 auto;
+  z-index: 100;
+  position: relative;
+  /* border-radius: 2% */
+}
+
+#new-game-container {
+    width: 90%;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* overflow: hidden; */
+    margin: 0 auto;
+    color: #FFF;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 4px;
+}
+
+#new-game-button {
+  width: 35%;
+  height: 5vh;
+  background: #8f7a66;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  cursor: pointer;
+  user-select: none;
+
+}
